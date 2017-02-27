@@ -14,8 +14,8 @@ body {
 }
 
 p {
-  font-family: cursive;
-  font-size: 14px;
+  /*font-family: cursive; */
+  font-size: 16px;
 }
 
 .Head #Head-Pic {
@@ -52,16 +52,30 @@ p {
   font-size: 13px;
 }
 .city{
-  height: 350px;
-  /* 4px solid black*/;
+  height: auto;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
 }
 .lang {
-  /* 4px solid black*/;
+  background-color: skyblue;
+  color: black;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  height: 200px;
 }
 table, tr, th, td{
   border: 1px solid black;
-  border-width: thick;
+  border-spacing: inherit;
   border-collapse: collapse;
+  border-spacing: 10px;
 }
 
 .atp #atpImg {
@@ -130,6 +144,16 @@ table, tr, th, td{
   position: relative;
   right: -510px;
   bottom: -5px;
+}
+
+.hp {
+    color: black;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
 }
 
 .footer {
