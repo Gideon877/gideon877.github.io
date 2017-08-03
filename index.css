@@ -1,0 +1,40 @@
+h4, h2, h5 {
+  font-family: Times, monospace;
+  /*font-style: oblique;*/
+}
+
+p {
+  font-size: 16px;
+}
+
+.lang {
+  background-color: skyblue;
+  color: black;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  height: 200px;
+}
+table, tr, th, td, thead{
+  border: 3px solid black;
+  border-spacing: inherit;
+  border-collapse: collapse;
+  border-spacing: 10px;
+}
+
+.hp {
+    color: black;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
+
+.footer {
+  height: 60px;
+  color: black
+}

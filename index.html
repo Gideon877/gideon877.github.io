@@ -1,103 +1,131 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+    <title>Thabang | Home</title>
     <meta charset="utf-8">
-    <title>Thabang</title>
-    <link rel="stylesheet" type="text/css" href="mWeb.css">
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
 
-    <div class="Head">
-      <a href="https://www.instagram.com/p/BQuXCR1BJg4/?taken-by=gideon877">
-        <img id="Head-Pic" src="TMountain.jpg" alt="Picture loading, please wait..." align="right"></a>
-        <h1>Thabang <br>Gideon</h1>
-      </img>
+<body>
+    <h2 align="center">Basic Webpage</h2>
+    <div class="container">
+        <div class="container text-center">
+            <img src="photos/TMountain.jpg" class="img-circle" alt="Loading" width="22%" height="100%">
+            <h3>Thabang Gideon Magaola</h3>
+        </div>
     </div>
-
-      <div class="city">
+    <hr>
+    <div class="container" id="city">
 
         <h2 align="center">The City I Want To Visit</h2>
 
-        <img id="lib" src="http://cdn.pcwallart.com/images/statue-of-liberty-at-sunrise-wallpaper-3.jpg" align="left">
-
-          <h5><b>New York City, United States of American</b></h5>
-            <p>
-                What i would like to experience is the snow weather as the city gets about 15 times more snow than the South Pole every year (this shouldn't be too surprising though because Antarctica is a desert and therefore receives very little precipitation).
-                I would also like to visit the Central Park in the city to take more lovely pictures.
-                The Statue of Liberty (Liberty Enlightening the World; French: La Liberté éclairant le monde) is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The copper statue, designed by Frédéric Auguste Bartholdi, a French sculptor, was built by Gustave Eiffel and dedicated on October 28, 1886. It was a gift to the United States from the people of France. The statue is of a robed female figure representing Libertas, the Roman goddess, who bears a torch and a tabula ansata (a tablet evoking the law) upon which is inscribed the date of the American Declaration of Independence, July 4, 1776. A broken chain lies at her feet.The statue is an icon of freedom and of the United States, and was a welcoming sight to immigrants arriving from abroad.
-              </p>
-        </img>
-      </div>
-
-      <div class="lang">
-        <p align="center">* <i><b>Italian</b></i> is the most romantic of the romance languages! Over the centuries Italian has come to merit its reputation as the language of art, love and seduction.</p>
-          <table align="center">
-            <tr>
-              <th>English Phrase</th>
-              <th>Foreign Language Phrase (Italian)</th>
-            </tr>
-            <tr>
-              <th>Good morning sir.</th>
-              <th><i>Buongiorno signore.</i></th>
-            </tr>
-            <tr>
-              <th>Where is mom</th>
-              <th><i>dov'è mamma</i></th>
-            </tr>
-            <tr>
-              <th>would you marry me?</th>
-              <th><i>Vuoi sposarmi?</i></th>
-            </tr>
-          </table>
-        </div>
-        </hr>
-        <div class="hp">
-          		<div class="atp">
-              			<h3 align="center"><u>African Trading Port</u></h3>
-               			<img id=atpImg src="ATPort.jpg" alt="African Trading Port" align="left">
-
-                			<p>At African Trading Port, personal relationships have been established with successive generations of leading artists, resulting in the compilation of an exquisite array of African objects from throughout the continent.
-				 	               From Zimbabwean Shona sculptures, to West African artifacts and interiors, to refined glassware and pottery....we also offer a worldwide shipping service.
-					            </p>
-                    </img>
-		          </div>
-
-
-
-
-	             <div class="ct">
-                  <h3 align="center"><u>Clock Tower</u></h3>
-                  <img id=ctImg src="ClockTower.jpg" alt="Clock Tower" align="right">
-
-		                <p>
-                    	Heading west, on the other side of Dock Road above the car park, is the 1894 Time Ball
-                    	Tower; its purpose was to act as an accurate reference for ships' navigators who set their clocks as the ball on the roof fell. Correct time was vital for navigators to be able to determine
-                    	precise longitude. Beside the tower is a 110-year-old dragon tree,
-                    	Dracaeno draco
-                    	, from the Canary Islands, and next to the tree is the original
-                    	harbour master's residence
-                    	(1860).
-            	       </p>
-                   </img>
-	              </div>
-
-
-
-	              <div class="sb">
-                  <h3 align="center"><u>Swing Bridge</u></h3>
-                  <img id="sbImg" src="SwingBridge.jpg" alt="The Swing Bridge" align="left">
-
-			            <p>
-                	   The bridge swings over the link between the Alfred Basin and the Victoria Basin in the Victoria & Alfred Waterfront. It was designed and constructed in 1997.
-              		</p>
-                  </img>
-	              </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="thumbnail">
+                    <div class="col-md-6">
+                        <img class="img-responsive" id="lib" src="photos/nyc_2.jpg">
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-responsive" src="photos/nyc.jpg" alt="">
+                    </div>
+                    <br>
+                    <div class="caption">
+                        <h5><b>New York City, United States of American</b></h5>
+                    </div>
+                </div>
             </div>
-    </body>
+            <div class="col-md-6">
+                <h5>
+                    What i would like to experience is the snow weather as the city gets about 15 times more snow than the South Pole every year (this shouldn't be too surprising though because Antarctica is a desert and therefore receives very little precipitation). I would
+                    also like to visit the Central Park in the city to take more lovely pictures. The Statue of Liberty (Liberty Enlightening the World; French: La Liberté éclairant le monde) is a colossal neoclassical sculpture on Liberty Island in New
+                    York Harbor in New York City, in the United States. The copper statue, designed by Frédéric Auguste Bartholdi, a French sculptor, was built by Gustave Eiffel and dedicated on October 28, 1886. It was a gift to the United States from
+                    the people of France. The statue is of a robed female figure representing Libertas, the Roman goddess, who bears a torch and a tabula ansata (a tablet evoking the law) upon which is inscribed the date of the American Declaration of
+                    Independence, July 4, 1776. A broken chain lies at her feet.The statue is an icon of freedom and of the United States, and was a welcoming sight to immigrants arriving from abroad.
+                </h5>
+            </div>
+        </div>
 
-    <div class="footer">
-      <footer>
-        <p>Posted by: TG Magaola ® <br><a href="https://twitter.com/gideon877"><img id=twitter src="twitter.jpg" alt="Twitter" target="_blank"></a></p>
-      </footer>
+        <hr>
+
+
+        <h2 align="center">Favourite Language</h2>
+        <h5 align="center">* <b><i>Italian</i> is the most romantic of the romance languages! Over the centuries Italian has come to merit its reputation as the language of art, love and seduction.</b></h5>
+
+        <div class="table-responsive">
+            <table class="table" align="center">
+                <thead>
+
+                    <tr>
+                        <th>English Phrase</th>
+                        <th>Foreign Language Phrase (Italian)</th>
+                    </tr>
+                    <tr>
+                        <td>Good morning sir.</td>
+                        <td><i>Buongiorno signore.</i></td>
+                    </tr>
+                    <tr>
+                        <td>Where is mom</td>
+                        <td><i>dov'è mamma</i></td>
+                    </tr>
+                    <tr>
+                        <td>would you marry me?</td>
+                        <td><i>Vuoi sposarmi?</i></td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <h3 align="center"><u>African Trading Port</u></h3>
+                    <img class="img-responsive" src="photos/ATPort.jpg" alt="African Trading Port" align="left">
+                    <div class="caption">
+                        <h5>At African Trading Port, personal relationships have been established with successive generations of leading artists, resulting in the compilation of an exquisite array of African objects from throughout the continent. From Zimbabwean
+                            Shona sculptures, to West African artifacts and interiors, to refined glassware and pottery....we also offer a worldwide shipping service.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <h3 align="center"><u>Clock Tower</u></h3>
+                    <img class="img-responsive" src="photos/ClockTower.jpg" alt="Clock Tower" align="right">
+
+                    <div class="caption">
+                        <h5>Heading west, on the other side of Dock Road above the car park, is the 1894 Time Ball Tower; its purpose was to act as an accurate reference for ships' navigators who set their clocks as the ball on the roof fell. Correct time
+                            was vital for navigators to be able to determine precise longitude. Beside the tower is a 110-year-old dragon tree, Dracaeno draco , from the Canary Islands, and next to the tree is the original harbour master's residence (1860).</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <h3 align="center"><u>Swing Bridge</u></h3>
+                    <img class="img-responsive" src="photos/SwingBridge.jpg" alt="The Swing Bridge" align="left">
+                    <div class="caption">
+                        <h5>The bridge swings over the link between the Alfred Basin and the Victoria Basin in the Victoria & Alfred Waterfront. It was designed and constructed in 1997.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</body>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" align="center">
+                <p class="text-muted">Posted by: TG Magaola ®</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
 </html>
